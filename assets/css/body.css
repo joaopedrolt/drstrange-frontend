@@ -1,0 +1,40 @@
+html, body{
+    position: relative;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(90deg, #000, #000D 35%, #0000), 
+    url('../images/bg.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 80px 50px 80px;
+    animation: zoom 1.5s;
+}
+@media (max-width: 1024px) {
+    body{
+        padding: 30px 30px 25px 30px;
+    }
+}
+@media (max-width: 700px) {
+    body{
+        background: url('../images/bg.png');
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #0006;
+        background-blend-mode: darken;
+    } 
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
