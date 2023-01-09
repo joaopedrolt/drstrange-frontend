@@ -1,4 +1,4 @@
-<h2 align="center">Pagína sobre o filme Dr.Strange</h2>
+<h2 align="center">Doctor Strange in the Multiverse of Madness</h2>
 
 <h3 align="center">Informações</h3>
  
@@ -6,7 +6,7 @@
 - Autoria: Código de autoria própria. Todos os direitos de imagem pertecem a Disney©.
 - Proposito: Prática de algumas tecnologias web front-end.
 - Progresso: Completo e responsivo.
-- Tecnologias utilizadas: Html, Css e JavaScript.
+- Tecnologias utilizadas: Html, Css e Javascript.
 - Requisitos: Qualquer navegador.
 - Idioma: Inglês.
 
